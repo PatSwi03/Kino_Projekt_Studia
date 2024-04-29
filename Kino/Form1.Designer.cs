@@ -67,9 +67,10 @@ namespace Kino
             this.user_log.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.user_log.BackColor = System.Drawing.Color.DimGray;
             this.user_log.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.user_log.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.user_log.Location = new System.Drawing.Point(74, 250);
             this.user_log.Name = "user_log";
-            this.user_log.Size = new System.Drawing.Size(190, 13);
+            this.user_log.Size = new System.Drawing.Size(190, 15);
             this.user_log.TabIndex = 1;
             this.user_log.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -78,10 +79,12 @@ namespace Kino
             this.user_pas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.user_pas.BackColor = System.Drawing.Color.DimGray;
             this.user_pas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.user_pas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.user_pas.Location = new System.Drawing.Point(74, 299);
             this.user_pas.Name = "user_pas";
-            this.user_pas.Size = new System.Drawing.Size(190, 13);
+            this.user_pas.Size = new System.Drawing.Size(190, 15);
             this.user_pas.TabIndex = 2;
+            this.user_pas.UseSystemPasswordChar = true;
             // 
             // panel1
             // 
