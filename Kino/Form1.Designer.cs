@@ -54,8 +54,8 @@ namespace Kino
             this.Login_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.Login_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login_Button.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Login_Button.Location = new System.Drawing.Point(60, 446);
-            this.Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login_Button.Location = new System.Drawing.Point(60, 445);
+            this.Login_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Login_Button.Name = "Login_Button";
             this.Login_Button.Size = new System.Drawing.Size(160, 74);
             this.Login_Button.TabIndex = 3;
@@ -70,7 +70,7 @@ namespace Kino
             this.user_log.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.user_log.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.user_log.Location = new System.Drawing.Point(99, 308);
-            this.user_log.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.user_log.Margin = new System.Windows.Forms.Padding(4);
             this.user_log.Name = "user_log";
             this.user_log.Size = new System.Drawing.Size(253, 19);
             this.user_log.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace Kino
             this.user_pas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.user_pas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.user_pas.Location = new System.Drawing.Point(99, 368);
-            this.user_pas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.user_pas.Margin = new System.Windows.Forms.Padding(4);
             this.user_pas.Name = "user_pas";
             this.user_pas.Size = new System.Drawing.Size(253, 19);
             this.user_pas.TabIndex = 2;
@@ -93,7 +93,7 @@ namespace Kino
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(99, 331);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(255, 1);
             this.panel1.TabIndex = 6;
@@ -102,7 +102,7 @@ namespace Kino
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Location = new System.Drawing.Point(97, 391);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(255, 1);
             this.panel2.TabIndex = 7;
@@ -111,7 +111,7 @@ namespace Kino
             // 
             this.pictureBox3.Image = global::Kino.Properties.Resources.account;
             this.pictureBox3.Location = new System.Drawing.Point(59, 305);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(27, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +123,7 @@ namespace Kino
             // 
             this.pictureBox2.Image = global::Kino.Properties.Resources._lock;
             this.pictureBox2.Location = new System.Drawing.Point(59, 366);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(27, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -137,7 +137,7 @@ namespace Kino
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::Kino.Properties.Resources.Projekt_bez_nazwy;
             this.pictureBox1.Location = new System.Drawing.Point(-157, -7);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.MaximumSize = new System.Drawing.Size(765, 292);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(765, 292);
@@ -154,8 +154,8 @@ namespace Kino
             this.Zamknij.FlatAppearance.BorderSize = 0;
             this.Zamknij.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Zamknij.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.Zamknij.Location = new System.Drawing.Point(239, 446);
-            this.Zamknij.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Zamknij.Location = new System.Drawing.Point(239, 445);
+            this.Zamknij.Margin = new System.Windows.Forms.Padding(4);
             this.Zamknij.Name = "Zamknij";
             this.Zamknij.Size = new System.Drawing.Size(160, 74);
             this.Zamknij.TabIndex = 4;
@@ -180,7 +180,7 @@ namespace Kino
             this.Controls.Add(this.Login_Button);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
