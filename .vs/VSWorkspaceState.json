@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Kino"
   ],
-  "SelectedNode": "\\Kino.sln",
+  "SelectedNode": "\\Kino\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
