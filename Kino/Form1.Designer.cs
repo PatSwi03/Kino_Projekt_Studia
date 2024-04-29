@@ -53,9 +53,10 @@ namespace Kino
             this.Login_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.Login_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login_Button.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Login_Button.Location = new System.Drawing.Point(74, 362);
+            this.Login_Button.Location = new System.Drawing.Point(99, 446);
+            this.Login_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Login_Button.Name = "Login_Button";
-            this.Login_Button.Size = new System.Drawing.Size(190, 52);
+            this.Login_Button.Size = new System.Drawing.Size(253, 74);
             this.Login_Button.TabIndex = 0;
             this.Login_Button.Text = "Zaloguj";
             this.Login_Button.UseVisualStyleBackColor = false;
@@ -66,9 +67,10 @@ namespace Kino
             this.user_log.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.user_log.BackColor = System.Drawing.Color.DimGray;
             this.user_log.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.user_log.Location = new System.Drawing.Point(74, 250);
+            this.user_log.Location = new System.Drawing.Point(99, 308);
+            this.user_log.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.user_log.Name = "user_log";
-            this.user_log.Size = new System.Drawing.Size(190, 13);
+            this.user_log.Size = new System.Drawing.Size(253, 15);
             this.user_log.TabIndex = 2;
             this.user_log.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -77,33 +79,37 @@ namespace Kino
             this.user_pas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.user_pas.BackColor = System.Drawing.Color.DimGray;
             this.user_pas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.user_pas.Location = new System.Drawing.Point(74, 299);
+            this.user_pas.Location = new System.Drawing.Point(99, 368);
+            this.user_pas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.user_pas.Name = "user_pas";
-            this.user_pas.Size = new System.Drawing.Size(190, 13);
+            this.user_pas.Size = new System.Drawing.Size(253, 15);
             this.user_pas.TabIndex = 3;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(74, 269);
+            this.panel1.Location = new System.Drawing.Point(99, 331);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(191, 1);
+            this.panel1.Size = new System.Drawing.Size(255, 1);
             this.panel1.TabIndex = 6;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(73, 318);
+            this.panel2.Location = new System.Drawing.Point(97, 391);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(191, 1);
+            this.panel2.Size = new System.Drawing.Size(255, 1);
             this.panel2.TabIndex = 7;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Kino.Properties.Resources.account;
-            this.pictureBox3.Location = new System.Drawing.Point(44, 248);
+            this.pictureBox3.Location = new System.Drawing.Point(59, 305);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.Size = new System.Drawing.Size(27, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
@@ -112,9 +118,10 @@ namespace Kino
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Kino.Properties.Resources._lock;
-            this.pictureBox2.Location = new System.Drawing.Point(44, 297);
+            this.pictureBox2.Location = new System.Drawing.Point(59, 366);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.Size = new System.Drawing.Size(27, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -125,10 +132,11 @@ namespace Kino
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::Kino.Properties.Resources.Projekt_bez_nazwy;
-            this.pictureBox1.Location = new System.Drawing.Point(-118, -6);
-            this.pictureBox1.MaximumSize = new System.Drawing.Size(574, 237);
+            this.pictureBox1.Location = new System.Drawing.Point(-157, -7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(765, 292);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(574, 237);
+            this.pictureBox1.Size = new System.Drawing.Size(765, 292);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -136,11 +144,11 @@ namespace Kino
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(344, 523);
+            this.ClientSize = new System.Drawing.Size(459, 644);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
@@ -151,6 +159,7 @@ namespace Kino
             this.Controls.Add(this.Login_Button);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.TopMost = true;
