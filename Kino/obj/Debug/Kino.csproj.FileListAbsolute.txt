@@ -18,3 +18,13 @@ C:\Users\Patryk\source\repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.cs
 C:\Users\Patryk\source\repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\source\repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.exe
 C:\Users\Patryk\source\repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.pdb
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\bin\Debug\Kino.exe.config
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\bin\Debug\Kino.exe
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\bin\Debug\Kino.pdb
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.csproj.AssemblyReference.cache
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.Form1.resources
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.Properties.Resources.resources
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.csproj.GenerateResource.cache
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.exe
+C:\Users\mariu\Source\Repos\PatSwi03\Kino_Projekt_Studia\Kino\obj\Debug\Kino.pdb

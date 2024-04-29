@@ -48,16 +48,16 @@ namespace Kino
             // 
             this.Login_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Login_Button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.Login_Button.BackColor = System.Drawing.Color.Transparent;
+            this.Login_Button.BackColor = System.Drawing.Color.DimGray;
             this.Login_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Login_Button.FlatAppearance.BorderSize = 0;
-            this.Login_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.Login_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.Login_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login_Button.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Login_Button.Location = new System.Drawing.Point(74, 362);
+            this.Login_Button.Location = new System.Drawing.Point(44, 362);
             this.Login_Button.Name = "Login_Button";
-            this.Login_Button.Size = new System.Drawing.Size(190, 60);
-            this.Login_Button.TabIndex = 0;
+            this.Login_Button.Size = new System.Drawing.Size(120, 60);
+            this.Login_Button.TabIndex = 3;
             this.Login_Button.Text = "Zaloguj";
             this.Login_Button.UseVisualStyleBackColor = false;
             this.Login_Button.Click += new System.EventHandler(this.button1_Click);
@@ -70,7 +70,7 @@ namespace Kino
             this.user_log.Location = new System.Drawing.Point(74, 250);
             this.user_log.Name = "user_log";
             this.user_log.Size = new System.Drawing.Size(190, 13);
-            this.user_log.TabIndex = 2;
+            this.user_log.TabIndex = 1;
             this.user_log.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // user_pas
@@ -81,7 +81,7 @@ namespace Kino
             this.user_pas.Location = new System.Drawing.Point(74, 299);
             this.user_pas.Name = "user_pas";
             this.user_pas.Size = new System.Drawing.Size(190, 13);
-            this.user_pas.TabIndex = 3;
+            this.user_pas.TabIndex = 2;
             // 
             // panel1
             // 
@@ -137,12 +137,18 @@ namespace Kino
             // 
             // Zamknij
             // 
-            this.Zamknij.Location = new System.Drawing.Point(111, 428);
+            this.Zamknij.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Zamknij.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Zamknij.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Zamknij.FlatAppearance.BorderSize = 0;
+            this.Zamknij.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Zamknij.Font = new System.Drawing.Font("Verdana", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.Zamknij.Location = new System.Drawing.Point(180, 362);
             this.Zamknij.Name = "Zamknij";
-            this.Zamknij.Size = new System.Drawing.Size(122, 46);
-            this.Zamknij.TabIndex = 10;
-            this.Zamknij.Text = "Zamknij sie";
-            this.Zamknij.UseVisualStyleBackColor = true;
+            this.Zamknij.Size = new System.Drawing.Size(120, 60);
+            this.Zamknij.TabIndex = 4;
+            this.Zamknij.Text = "Zamknij";
+            this.Zamknij.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -163,6 +169,7 @@ namespace Kino
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
