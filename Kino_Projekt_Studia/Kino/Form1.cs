@@ -68,7 +68,7 @@ namespace Kino
 
             if (i == 0)
             {
-                MessageBox.Show("Bosze");
+                MessageBox.Show("Zle dane logowania");
             }
             else
             {
