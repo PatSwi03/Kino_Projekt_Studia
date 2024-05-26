@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Kino
 {
@@ -16,6 +18,7 @@ namespace Kino
         {
             InitializeComponent();
         }
+        MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
             //Login użytkownika
@@ -51,30 +54,31 @@ namespace Kino
 
         private void zalogujsie(object sender, EventArgs e)
         {
+            int i = 0;
+            conn.Open();
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "SELECT User_name, User_pass FROM users WHERE User_name ='" + user_log.Text + "' AND User_Pass ='" + user_pas.Text + "'";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            da.Fill(dt);
 
-            string uzytkownik = user_log.Text;
-            string haslo = user_pas.Text;
+            i = Convert.ToInt32(dt.Rows.Count.ToString());
 
-            if (SprawdzNazweiHaslo(uzytkownik, haslo))
+            if (i == 0)
             {
+                MessageBox.Show("Bosze");
+            }
+            else
+            {
+                this.Hide();
                 Form2 form2 = new Form2();
                 form2.Show();
-                this.Hide();
             }
-            else
-            {
-                MessageBox.Show("Niepoprawna nazwa użytkownika lub hasło", "Błąd logowania");
-                return;
-            }
-        }
-        public bool SprawdzNazweiHaslo(string uzytkownik, string haslo)
-        {
-            if (uzytkownik == "Pracownik" & haslo == "kino123")
-                return true;
-            else
-                return false;
+            conn.Close();
 
         }
     }
-    }
+}
 
