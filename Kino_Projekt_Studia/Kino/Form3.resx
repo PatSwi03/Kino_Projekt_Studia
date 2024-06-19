@@ -117,9 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Tutaj trzeba zarobić kafelki gdzie dodaje się film na który idzie, jedzenie jakie zabiera i no na dole sume ile wszystko klienta wyszło
-Moim pomysłem jest żeby tutuaj były kafelki i jeden odpowiadał za przekonski, a drugi odpowiadał za wybór filmu.
-Po tym wszytskim żeby na dole była cena i przycsk np "zapłata" który usuwa jakby ten "paragon' i przenosi nas do okna form2.cs</value>
-  </data>
 </root>
