@@ -1,47 +1,56 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Kino
 {
     public partial class Form1 : Form
     {
+        private MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
+        private User user = new User("", ""); // Inicjalizacja obiektu User
+
         public Form1()
         {
             InitializeComponent();
         }
-        MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
+        public class User
+        {
+            public string UserName { get; set; }
+            public string Password { get; set; }
+
+            public User(string userName, string password)
+            {
+                UserName = userName;
+                Password = password;
+            }
+        }
+
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //Login użytkownika
+            // Login użytkownika
         }
+
         public void Form1_Load(object sender, EventArgs e)
         {
-            //Tło aplikacji logowanie
+            // Tło aplikacji logowanie
         }
 
         public void pictureBox1_Click(object sender, EventArgs e)
         {
-            //Logo Kina
+            // Logo Kina
         }
 
         public void pictureBox3_Click(object sender, EventArgs e)
         {
-            //Obrazek postać logowania
+            // Obrazek postać logowania
         }
 
         public void user_pas_TextChanged(object sender, EventArgs e)
         {
-            //haslo użytkownia
-        }        
+            // Hasło użytkownika
+        }
+
         private void Zamknij_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -49,16 +58,22 @@ namespace Kino
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            //Obrazek kłódka
+            // Obrazek kłódka
         }
 
         private void zalogujsie(object sender, EventArgs e)
         {
             int i = 0;
+            user.UserName = user_log.Text;
+            user.Password = user_pas.Text;
+
             conn.Open();
             MySqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT User_name, User_pass FROM users WHERE User_name ='" + user_log.Text + "' AND User_Pass ='" + user_pas.Text + "'";
+            cmd.CommandText = "SELECT User_name, User_pass FROM users WHERE User_name = @userName AND User_Pass = @password";
+            cmd.Parameters.AddWithValue("@userName", user.UserName);
+            cmd.Parameters.AddWithValue("@password", user.Password);
+
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -68,7 +83,7 @@ namespace Kino
 
             if (i == 0)
             {
-                MessageBox.Show("Zle dane logowania");
+                MessageBox.Show("Złe dane logowania");
             }
             else
             {
@@ -77,8 +92,6 @@ namespace Kino
                 form2.Show();
             }
             conn.Close();
-
         }
     }
 }
-
