@@ -57,15 +57,15 @@ namespace Kino
             user.Password = user_pas.Text;
 
             conn.Open();
-            MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT User_name, User_pass FROM users WHERE User_name = @userName AND User_Pass = @password";
-            cmd.Parameters.AddWithValue("@userName", user.UserName);
-            cmd.Parameters.AddWithValue("@password", user.Password);
+            MySqlCommand login = conn.CreateCommand();
+            login.CommandType = CommandType.Text;
+            login.CommandText = "SELECT User_name, User_pass FROM users WHERE User_name = @userName AND User_Pass = @password";
+            login.Parameters.AddWithValue("@userName", user.UserName);
+            login.Parameters.AddWithValue("@password", user.Password);
 
-            cmd.ExecuteNonQuery();
+            login.ExecuteNonQuery();
             DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            MySqlDataAdapter da = new MySqlDataAdapter(login);
             da.Fill(dt);
 
             i = Convert.ToInt32(dt.Rows.Count.ToString());
