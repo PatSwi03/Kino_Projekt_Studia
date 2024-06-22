@@ -12,6 +12,7 @@ Język w którym została utworzona baza danych to MySql
 ## Wykorzystana technologia
 
 * C# (główny język projektu)
+* Pakiet NuGet MySQL.Client (wymagany pakiet do zainstalowania przy pracy z MySQL)
 * MySql (baza danych utworzona w tym języku)
 * Xampp (jako środowiko do administracji bazy danych)
 
