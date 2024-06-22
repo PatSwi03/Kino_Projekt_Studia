@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Cze 02, 2024 at 08:46 PM
--- Wersja serwera: 10.4.32-MariaDB
--- Wersja PHP: 8.2.12
+-- Czas generowania: 22 Cze 2024, 17:47
+-- Wersja serwera: 10.4.14-MariaDB
+-- Wersja PHP: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,30 +18,31 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kino`
+-- Baza danych: `kino`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktura tabeli dla tabeli `movies`
+-- Struktura tabeli dla tabeli `filmy`
 --
 
-CREATE TABLE `movies` (
-  `Id` int(11) NOT NULL,
-  `Title` varchar(50) NOT NULL,
-  `Director` varchar(50) DEFAULT NULL,
-  `Duration` float NOT NULL,
-  `Description` varchar(600) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE `filmy` (
+  `Tytul` varchar(50) COLLATE utf8_polish_ci NOT NULL,
+  `Rezyser` varchar(30) COLLATE utf8_polish_ci NOT NULL,
+  `Ocena` int(11) NOT NULL,
+  `Data` datetime NOT NULL,
+  `Dlugosc` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
 --
--- Dumping data for table `movies`
+-- Zrzut danych tabeli `filmy`
 --
 
-INSERT INTO `movies` (`Id`, `Title`, `Director`, `Duration`, `Description`) VALUES
-(1, 'Auta', 'John Lasseter', 1.57, 'Samochód wyścigowy Zygzak McQueen to prawdziwy wybraniec losu, żyje na najwyższych obrotach i jest zwycięzcą sezonu. Teraz jednak, zamiast na kolejny wyścig, trafia przypadkowo do małego, zapomnianego miasteczka, leżącego nieopodal słynnej amerykańskiej trasy numer 66. Poznaje niezwykłych mieszkańców osady, Sally, Złomka, Wójta Hudsona i innych, dzięki którym przekonuje się, że wygrane wyścigi, trofea i sława nie są w życiu najważniejsze.'),
-(2, 'OPPENHEIMER', 'Christopher Nolan', 3, 'Oppenheimer w czasie II wojny światowej był dyrektorem programu rozwoju broni jądrowej \"Manhattan\".  Poza działalnością związaną z bronią atomową Oppenheimer miał ogromne osiągnięcia w innych dziedzinach fizyki, między innymi w badaniach czarnych dziur oraz promieniowania kosmicznego. Resztę życia po opracowaniu bomby atomowej poświęcił na działalność na rzecz ograniczania rozprzestrzeniania się broni jądrowej. Był oskarżany przez amerykański rząd i służby o powiązania z ruchem komunistycznym oraz działalność szpiegowską. W latach 50. został pozbawiony dostępu do tajnych dokumentów. ');
+INSERT INTO `filmy` (`Tytul`, `Rezyser`, `Ocena`, `Data`, `Dlugosc`) VALUES
+('Dywizjon 303', 'Denis Delić', 4, '2024-07-17 20:00:00', 2),
+('Auta', 'John Lasseter', 5, '2024-07-10 20:00:00', 2),
+('Kamienie na szaniec', 'Robert Gliński', 5, '2024-07-24 20:00:00', 2);
 
 -- --------------------------------------------------------
 
@@ -53,26 +54,20 @@ CREATE TABLE `users` (
   `Id` int(11) NOT NULL,
   `User_name` varchar(30) NOT NULL,
   `User_pass` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
+-- Zrzut danych tabeli `users`
 --
 
 INSERT INTO `users` (`Id`, `User_name`, `User_pass`) VALUES
 (1, 'Admin', 'WSB'),
-(2, 'Kamil_P', 'Ananasek'),
-(3, 'Marysia_K', 'Kotek');
+(2, 'Alicja', 'czary'),
+(3, 'Maciek', 'klan');
 
 --
 -- Indeksy dla zrzutów tabel
 --
-
---
--- Indeksy dla tabeli `movies`
---
-ALTER TABLE `movies`
-  ADD PRIMARY KEY (`Id`);
 
 --
 -- Indeksy dla tabeli `users`
@@ -85,13 +80,7 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `movies`
---
-ALTER TABLE `movies`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
-
---
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT dla tabeli `users`
 --
 ALTER TABLE `users`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
