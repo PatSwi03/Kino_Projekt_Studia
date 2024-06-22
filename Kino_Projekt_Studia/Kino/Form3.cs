@@ -40,14 +40,7 @@ namespace Kino
             // Ustawiamy domyślne wartości
             SetDefaultValues();
         }
-        public class Movie
-        {
-            public string Tytul { get; set; }
-            public string Rezyser { get; set; }
-            public double Ocena { get; set; }
-            public DateTime Data { get; set; }
-            public int Dlugosc { get; set; }
-        }
+        
         private void LoadData()
         {
             using (MySqlConnection connection = new MySqlConnection(conn.ConnectionString))
@@ -114,7 +107,7 @@ namespace Kino
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            // Ta metoda może być użyta do dodatkowej inicjalizacji podczas ładowania formularza
+           
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -175,5 +168,10 @@ namespace Kino
         private void textBox14_TextChanged(object sender, EventArgs e) { }
 
         private void textBox15_TextChanged(object sender, EventArgs e) { }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
