@@ -61,6 +61,19 @@ Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 * Okno tworzenia paragonów - okno zawiera liste dziś dostępnych filmów, listę dostępnych przekąsek oraz widok lącznej sumy rachunku
 ![image](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/cbd87c61-795c-4cef-b043-d2fb5aab83c1)
 
+## Struktura Bazy "Kino"
+Baza danych "Kino" - jest prostym źródłem danych dla aplikacji, baza składa się z 2 tabel users oraz filmy.
+* Struktura oraz dane wprowadzone do tabeli "users"
+![Struktura users](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/f0e78206-3ceb-477e-9f9f-792860e4d88f)
+![Dane users](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/01ab7193-12f5-41d3-bb8c-02147a825cd2)
+* Struktura oraz dane wprowadzone do tabeli "filmy"
+![Struktura filmy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/a59a9afb-b3e2-4a55-a8aa-c01b62c3cf7d)
+![Dane filmy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/8625189c-bf04-4f01-abff-074a91419268)
+
+
+
+
+
 ## Wnioski z wykonanej pracy
 
 1. Podczas tworzenia panelu logowania zastosowaliśmy pierwsze łączenie z bazą danych z której uzyskujemy informacje o danych do zalogowania się do aplikacji, wykorzystaliśmy rówież przejscia pomiędzy częściami programu Form.
