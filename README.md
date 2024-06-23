@@ -16,6 +16,19 @@ Język w którym została utworzona baza danych to MySql
 * MySql (baza danych utworzona w tym języku)
 * Xampp (jako środowiko do administracji bazy danych)
 
+## Implementacja
+- Wymagania – Wymogiem aplikacji jest wyświetlanie obecnie dostępnych filmów wprowadzonych do bazy danych wraz z możliwością dokonania zakupu przekąsek.
+- Projektowanie - Zaczęliśmy tworzenie projektu od dostosowania naszych umiejętności do planu na projekt wraz z dodatkowymi funkcjami, które mogliśmy załączyć do aplikacji.
+- Tworzenie – Pierwszą rzeczą jaką wykonaliśmy był panel logowania pracownika, który działa przy pomocy utworzonej bazy MySQL, następnie przystąpiliśmy do tworzenia pośredniego panelu między tworzeniem rachunków a panelem logowania. Panel rachunków, który zawiera listę filmów, przekąsek oraz metody płatności był ostatnim etapem projektu.
+
+## Umiejętności
+Podczas tworzenia aplikacji nauczyliśmy się czynności takich jak: 
+* Sprawne łączenie bazy danych z aplikacją 
+* Tworzenie bazy danych w MySQL 
+* Edycja elementów w bazie danych  
+* Tworzenia projektu w języku programowania C# w postaci programu okienkowego 
+* Pracy ze środowiskiem GitHub
+
 ## Jak uruchomić
 
 Do poprawnego działania aplikacji potrzebujemy środowiska w którym będziemy mogli uruchomić baze danych.
@@ -26,3 +39,31 @@ Po uruchomieniu aplikacji ukazuje się nam panel logowania do aplikacji, w któr
 konto używane w czasie tworzenia aplikacji to Admin WSB.
 Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 
+1. Pobieramy repozytorium.
+2. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
+3. Tworzymy nową bazę danych o nazwie Kino.            
+![Tworzenie bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/20ce101c-3f5d-49ac-b9a9-6009dab9fece)
+4. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
+![import bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/873dd2c8-3c39-47f0-9cb2-905f20a76724)
+5. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
+6. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
+
+
+
+## Elementy aplikacji
+
+* Panel Logowania                                     
+![Panel Logowania](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/fd2a27d3-2d60-4acf-aef9-d9eeb272df3c)
+
+* Okno pośrednie - umożliwiający przejscie pomiędzy tworzeniem paragonów oraz logowaniem
+![Okno pośrednie](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/4b6b073e-3994-4963-9dd9-8894cfb96be2)
+
+* Okno tworzenia paragonów - okno zawiera liste dziś dostępnych filmów, listę dostępnych przekąsek oraz widok lącznej sumy rachunku
+![image](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/cbd87c61-795c-4cef-b043-d2fb5aab83c1)
+
+## Wnioski z wykonanej pracy
+
+1. Podczas tworzenia panelu logowania zastosowaliśmy pierwsze łączenie z bazą danych z której uzyskujemy informacje o danych do zalogowania się do aplikacji, wykorzystaliśmy rówież przejscia pomiędzy częściami programu Form.
+2. Przy tworzeniu okna odpowiedzialnego za paragony znów wykorzystaliśmy łączenie z baza tylko tym razem uzyskujemy informacje o filmach, a dokladniej o takich dostępnych w danym dniu.
+3. W tym oknie miała również pojawić się opcja zapisywania paragonów do bazy danych. Opcja ta została przez nas porzucona z powodu występujących problemów przy przekazywaniu wartości o typie dokonanej płatności (karta/gotówka).
+4. Po konsultacjach w sprawie projektu dodaliśmy kilka podstawowych klas do programu.
