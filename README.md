@@ -40,13 +40,14 @@ konto używane w czasie tworzenia aplikacji to Admin WSB.
 Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 
 1. Pobieramy repozytorium.
-2. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
-3. Tworzymy nową bazę danych o nazwie Kino.            
+2. Pobieramy aplikacje Xampp oraz uruchamiamy.
+3. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
+4. Tworzymy nową bazę danych o nazwie "Kino" oraz wybieramy system kodowania "utf8_polish_ci" .            
 ![Tworzenie bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/20ce101c-3f5d-49ac-b9a9-6009dab9fece)
-4. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
+5. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
 ![import bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/873dd2c8-3c39-47f0-9cb2-905f20a76724)
-5. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
-6. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
+6. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
+7. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
 
 
 
