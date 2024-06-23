@@ -8,20 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using static Org.BouncyCastle.Crypto.Engines.SM2Engine;
 
 namespace Kino
 {
-    public partial class Form3 : Form 
+    public partial class Form3 : Form
     {
-        private List<Movie> movies = new List<Movie>();
+        public List<Movie> movies = new List<Movie>();
         MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
 
         public Form3()
         {
             InitializeComponent();
             LoadData();
-            // Dodajemy zdarzenia TextChanged dla wszystkich textBoxów
+
             textBox1.TextChanged += UpdateSum;
             textBox2.TextChanged += UpdateSum;
             textBox3.TextChanged += UpdateSum;
@@ -37,10 +36,9 @@ namespace Kino
             textBox13.TextChanged += UpdateSum;
             textBox14.TextChanged += UpdateSum;
 
-            // Ustawiamy domyślne wartości
             SetDefaultValues();
         }
-        
+
         private void LoadData()
         {
             using (MySqlConnection connection = new MySqlConnection(conn.ConnectionString))
@@ -49,6 +47,20 @@ namespace Kino
                 MySqlDataAdapter dataAdapter = new MySqlDataAdapter(query, connection);
                 DataTable dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
+
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    movies.Add(new Movie
+                    {
+                        Title = row["Tytul"].ToString(),
+                        Director = row["Rezyser"].ToString(),
+                        Rating = Convert.ToDouble(row["Ocena"]),
+                        ReleaseDate = Convert.ToDateTime(row["Data"]),
+                        Duration = Convert.ToInt32(row["Dlugosc"])
+                    })
+                       ;
+                }
+
                 dataGridView1.DataSource = dataTable;
             }
         }
@@ -76,7 +88,6 @@ namespace Kino
         {
             try
             {
-                // Pobieranie wartości z TextBoxów i mnożenie przez odpowiednie ceny
                 double sum = 0;
                 sum += Convert.ToDouble(textBox1.Text) * 15.00;
                 sum += Convert.ToDouble(textBox2.Text) * 25.00;
@@ -93,12 +104,11 @@ namespace Kino
                 sum += Convert.ToDouble(textBox13.Text) * 20.00;
                 sum += Convert.ToDouble(textBox14.Text) * 25.00;
 
-                // Wyświetlanie sumy w textBox15
+                
                 textBox15.Text = sum.ToString("F2");
             }
             catch (FormatException)
             {
-                // Ignorowanie błędów konwersji, jeśli tekst nie jest liczbą
                 textBox15.Text = "0.00";
             }
         }
@@ -107,7 +117,7 @@ namespace Kino
 
         private void Form3_Load(object sender, EventArgs e)
         {
-           
+
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -169,9 +179,6 @@ namespace Kino
 
         private void textBox15_TextChanged(object sender, EventArgs e) { }
 
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e) { }
     }
 }

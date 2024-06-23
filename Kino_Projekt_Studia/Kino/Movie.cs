@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Kino 
+namespace Kino
 {
     public class Movie
     {
-        public string Tytul { get; set; }
-        public string Rezyser { get; set; }
-        public double Ocena { get; set; }
-        public DateTime Data { get; set; }
-        public int Dlugosc { get; set; }
+        public string Title { get; set; }
+        public string Director { get; set; }
+        public double Rating { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public int Duration { get; set; }
     }
 }

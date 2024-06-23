@@ -2,13 +2,13 @@
 using System.Data;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+    
 namespace Kino
 {
     public partial class Form1 : Form
     {
         private MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
-        private User user = new User("", ""); // Inicjalizacja obiektu User
+        public User user = new User("", ""); // Dodanie klasys user - możliwość logowania
 
         public Form1()
         {

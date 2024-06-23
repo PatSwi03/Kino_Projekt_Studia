@@ -53,7 +53,7 @@ namespace Kino
             if (double.TryParse(textBox1.Text, out double value1) && double.TryParse(textBox2.Text, out double value2))
             {
                 // Oblicz różnicę
-                double roznica = value1 - value2;
+                double roznica = value2 - value1;
 
                 // Wyświetl kwote do zapłaty
                 textBox3.Text = roznica.ToString() + " zł";

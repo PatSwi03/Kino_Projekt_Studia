@@ -12,14 +12,17 @@ namespace Kino
 {
     public partial class Form2 : Form
     {
+        public wyswietldata data;
+
         public Form2()
         {
             InitializeComponent();
+            data = new wyswietldata(); // Inicjalizacja instancji klasy ExtendedData
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            textBox2.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            textBox2.Text = data.GetCurrentDateTime(); // Użycie klasy ExtendedData do ustawienia tekstu
             //pokazuje jaka jest data
         }
 
@@ -30,7 +33,7 @@ namespace Kino
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
