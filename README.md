@@ -77,7 +77,7 @@ Baza danych "Kino" - jest prostym źródłem danych dla aplikacji, baza składa 
 Obecnie w kodzie aplikacja wyciąga wszyskie filmy istniejące w bazie danych w celu doradzenia klientowi przez pracownika odpowiedniego filmu.
 W przypadku chęci zmiany tego na wyświetlanie filmów, które są w dzisiejszym repertuarze należy zmienić w kodzie w Form3.cs wartość 
 string query = "SELECT Tytul, Rezyser, Ocena, Data, Dlugosc FROM `filmy`";
-![Obecna wartość string query](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/64924358-7465-47b0-ac7e-d9e652dd6c2f)
+![Obecna wartość string query](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/64924358-7465-47b0-ac7e-d9e652dd6c2f)            
 na wartość string query = "SELECT Tytul, Rezyser, Ocena, Data, Dlugosc FROM filmy WHERE DATE(Data) = CURDATE()";
 ![Wyszukiwanie filmów z dnia dzisiejszego](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/b805285b-db60-45bf-8841-a6bb07b1d2f1)
 
