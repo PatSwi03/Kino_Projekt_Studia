@@ -40,13 +40,14 @@ konto używane w czasie tworzenia aplikacji to Admin WSB.
 Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 
 1. Pobieramy repozytorium.
-2. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
-3. Tworzymy nową bazę danych o nazwie Kino.            
+2. Pobieramy aplikacje Xampp oraz uruchamiamy.
+3. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
+4. Tworzymy nową bazę danych o nazwie "Kino" oraz wybieramy system kodowania "utf8_polish_ci" .            
 ![Tworzenie bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/20ce101c-3f5d-49ac-b9a9-6009dab9fece)
-4. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
+5. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
 ![import bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/873dd2c8-3c39-47f0-9cb2-905f20a76724)
-5. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
-6. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
+6. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
+7. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
 
 
 
@@ -71,6 +72,14 @@ Baza danych "Kino" - jest prostym źródłem danych dla aplikacji, baza składa 
 ![Dane filmy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/8625189c-bf04-4f01-abff-074a91419268)
 
 
+## Zmiana wyszukiwania filmów
+
+Obecnie w kodzie aplikacja wyciąga wszyskie filmy istniejące w bazie danych w celu doradzenia klientowi przez pracownika odpowiedniego filmu.
+W przypadku chęci zmiany tego na wyświetlanie filmów, które są w dzisiejszym repertuarze należy zmienić w kodzie w Form3.cs wartość 
+string query = "SELECT Tytul, Rezyser, Ocena, Data, Dlugosc FROM `filmy`";
+![Obecna wartość string query](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/64924358-7465-47b0-ac7e-d9e652dd6c2f)            
+na wartość string query = "SELECT Tytul, Rezyser, Ocena, Data, Dlugosc FROM filmy WHERE DATE(Data) = CURDATE()";
+![Wyszukiwanie filmów z dnia dzisiejszego](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/b805285b-db60-45bf-8841-a6bb07b1d2f1)
 
 
 
