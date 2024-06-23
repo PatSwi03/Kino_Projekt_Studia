@@ -8,37 +8,39 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using static Org.BouncyCastle.Crypto.Engines.SM2Engine;
 
 namespace Kino
 {
-    public partial class Form3 : Form
+    public partial class Form3 : Form 
     {
+        private List<Movie> movies = new List<Movie>();
         MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
 
         public Form3()
         {
             InitializeComponent();
             LoadData();
-            // musi byc textchanged zeby sumowalo sie prawidlowo
-            textBox1.TextChanged += dodawanie;
-            textBox2.TextChanged += dodawanie;
-            textBox3.TextChanged += dodawanie;
-            textBox4.TextChanged += dodawanie;
-            textBox5.TextChanged += dodawanie;
-            textBox6.TextChanged += dodawanie;
-            textBox7.TextChanged += dodawanie;
-            textBox8.TextChanged += dodawanie;
-            textBox9.TextChanged += dodawanie;
-            textBox10.TextChanged += dodawanie;
-            textBox11.TextChanged += dodawanie;
-            textBox12.TextChanged += dodawanie;
-            textBox13.TextChanged += dodawanie;
-            textBox14.TextChanged += dodawanie;
+            // Dodajemy zdarzenia TextChanged dla wszystkich textBoxów
+            textBox1.TextChanged += UpdateSum;
+            textBox2.TextChanged += UpdateSum;
+            textBox3.TextChanged += UpdateSum;
+            textBox4.TextChanged += UpdateSum;
+            textBox5.TextChanged += UpdateSum;
+            textBox6.TextChanged += UpdateSum;
+            textBox7.TextChanged += UpdateSum;
+            textBox8.TextChanged += UpdateSum;
+            textBox9.TextChanged += UpdateSum;
+            textBox10.TextChanged += UpdateSum;
+            textBox11.TextChanged += UpdateSum;
+            textBox12.TextChanged += UpdateSum;
+            textBox13.TextChanged += UpdateSum;
+            textBox14.TextChanged += UpdateSum;
 
-            // domysla wartosc
-            podstawowe();
+            // Ustawiamy domyślne wartości
+            SetDefaultValues();
         }
-
+        
         private void LoadData()
         {
             using (MySqlConnection connection = new MySqlConnection(conn.ConnectionString))
@@ -51,67 +53,62 @@ namespace Kino
             }
         }
 
-        private void podstawowe()
+        private void SetDefaultValues()
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            textBox4.Text = "";
-            textBox5.Text = "";
-            textBox6.Text = "";
-            textBox7.Text = "";
-            textBox8.Text = "";
-            textBox9.Text = "";
-            textBox10.Text = "";
-            textBox11.Text = "";
-            textBox12.Text = "";
-            textBox13.Text = "";
-            textBox14.Text = "";
+            textBox1.Text = "0";
+            textBox2.Text = "0";
+            textBox3.Text = "0";
+            textBox4.Text = "0";
+            textBox5.Text = "0";
+            textBox6.Text = "0";
+            textBox7.Text = "0";
+            textBox8.Text = "0";
+            textBox9.Text = "0";
+            textBox10.Text = "0";
+            textBox11.Text = "0";
+            textBox12.Text = "0";
+            textBox13.Text = "0";
+            textBox14.Text = "0";
             textBox15.Text = "0.00";
         }
 
-        private void dodawanie(object sender, EventArgs e)
+        private void UpdateSum(object sender, EventArgs e)
         {
             try
             {
+                // Pobieranie wartości z TextBoxów i mnożenie przez odpowiednie ceny
                 double sum = 0;
+                sum += Convert.ToDouble(textBox1.Text) * 15.00;
+                sum += Convert.ToDouble(textBox2.Text) * 25.00;
+                sum += Convert.ToDouble(textBox3.Text) * 20.00;
+                sum += Convert.ToDouble(textBox4.Text) * 30.00;
+                sum += Convert.ToDouble(textBox5.Text) * 20.00;
+                sum += Convert.ToDouble(textBox6.Text) * 20.00;
+                sum += Convert.ToDouble(textBox7.Text) * 10.00;
+                sum += Convert.ToDouble(textBox8.Text) * 20.00;
+                sum += Convert.ToDouble(textBox9.Text) * 10.00;
+                sum += Convert.ToDouble(textBox10.Text) * 20.00;
+                sum += Convert.ToDouble(textBox11.Text) * 5.00;
+                sum += Convert.ToDouble(textBox12.Text) * 10.00;
+                sum += Convert.ToDouble(textBox13.Text) * 20.00;
+                sum += Convert.ToDouble(textBox14.Text) * 25.00;
 
-                sum += kwoty(textBox1) * 15.00;
-                sum += kwoty(textBox2) * 25.00;
-                sum += kwoty(textBox3) * 20.00;
-                sum += kwoty(textBox4) * 30.00;
-                sum += kwoty(textBox5) * 20.00;
-                sum += kwoty(textBox6) * 20.00;
-                sum += kwoty(textBox7) * 10.00;
-                sum += kwoty(textBox8) * 20.00;
-                sum += kwoty(textBox9) * 10.00;
-                sum += kwoty(textBox10) * 20.00;
-                sum += kwoty(textBox11) * 5.00;
-                sum += kwoty(textBox12) * 10.00;
-                sum += kwoty(textBox13) * 20.00;
-                sum += kwoty(textBox14) * 25.00;
-
-                
-                textBox15.Text = sum.ToString("F2"); // Wyświetlanie sumy do 2 po przecinku.
+                // Wyświetlanie sumy w textBox15
+                textBox15.Text = sum.ToString("F2");
             }
             catch (FormatException)
             {
-                textBox15.Text = "0.00"; 
+                // Ignorowanie błędów konwersji, jeśli tekst nie jest liczbą
+                textBox15.Text = "0.00";
             }
-        }
-
-        private double kwoty(TextBox textBox) // Dzięki temu gdy wpisze się litere np to pomija to pole i dodaje dalej. Sprawdza poprawność pisowni.
-        {
-            double value = 0;
-            if (!string.IsNullOrEmpty(textBox.Text))
-            {
-                double.TryParse(textBox.Text, out value);
-            }
-            return value;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e) { }
 
+        private void Form3_Load(object sender, EventArgs e)
+        {
+           
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
@@ -171,5 +168,10 @@ namespace Kino
         private void textBox14_TextChanged(object sender, EventArgs e) { }
 
         private void textBox15_TextChanged(object sender, EventArgs e) { }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

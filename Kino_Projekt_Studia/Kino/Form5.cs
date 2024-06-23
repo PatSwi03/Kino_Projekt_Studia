@@ -71,5 +71,10 @@ namespace Kino
             form4.Show();
             this.Hide();
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,14 +39,7 @@ Po uruchomieniu aplikacji ukazuje się nam panel logowania do aplikacji, w któr
 konto używane w czasie tworzenia aplikacji to Admin WSB.
 Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 
-1. Pobieramy repozytorium.
-2. Wchodzimy w adres http://127.0.0.1/phpmyadmin/
-3. Tworzymy nową bazę danych o nazwie Kino.            
-![Tworzenie bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/20ce101c-3f5d-49ac-b9a9-6009dab9fece)
-4. Wchodzimy do naszej nowo utworzonej bazy oraz klikamy przycisk import.
-![import bazy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/873dd2c8-3c39-47f0-9cb2-905f20a76724)
-5. Wybieramy opcje wybierz plik oraz odszukujemy plik Kino.sql oraz zatwierdzamy.
-6. Po wykonaniu tych kroków aplikacja powinna działać bez zastrzeżeń.
+
 
 
 
@@ -69,6 +62,7 @@ Baza danych "Kino" - jest prostym źródłem danych dla aplikacji, baza składa 
 * Struktura oraz dane wprowadzone do tabeli "filmy"
 ![Struktura filmy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/a59a9afb-b3e2-4a55-a8aa-c01b62c3cf7d)
 ![Dane filmy](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/8625189c-bf04-4f01-abff-074a91419268)
+
 
 
 

@@ -113,5 +113,10 @@ namespace Kino
             form3.Show();
             Hide();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
