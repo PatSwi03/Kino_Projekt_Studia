@@ -27,7 +27,7 @@ namespace Kino
 
         public void pictureBox1_Click(object sender, EventArgs e)
         {
-            // Logo Kina
+            // Logotyp kina
         }
 
         public void pictureBox3_Click(object sender, EventArgs e)
