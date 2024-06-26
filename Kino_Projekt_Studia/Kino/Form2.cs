@@ -22,8 +22,8 @@ namespace Kino
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            textBox2.Text = data.GetCurrentDateTime(); // Użycie klasy ExtendedData do ustawienia tekstu
-            //pokazuje jaka jest data
+            textBox2.Text = dataInstance.GetCurrentDateTime();
+            textBox1.Text = cinema.Gdziekino();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
