@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Kino.User">
-    <Position X="5.5" Y="2" Width="1.5" />
+    <Position X="4.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Kino.Data">
-    <Position X="8.25" Y="1" Width="1.5" />
+    <Position X="7" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Data.cs</FileName>
@@ -16,25 +16,25 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Kino.Movie">
-    <Position X="3.25" Y="2" Width="1.25" />
+    <Position X="2.75" Y="1.75" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAKAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Movie.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Kino.Cinema">
-    <Position X="0.75" Y="2" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAABIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cinema.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="System.Object" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Kino.WyswietlData">
-    <Position X="8.25" Y="2.75" Width="1.5" />
+    <Position X="7" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>datawyswietlana.cs</FileName>

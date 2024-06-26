@@ -15,7 +15,7 @@ namespace Kino
 
         public string Gdziekino()
         {
-            return $"Kino: {Name}            Lokalizacja: {Location}";
+            return $"Kino: {Name}   Lokalizacja: {Location}";
         }
     }
 }

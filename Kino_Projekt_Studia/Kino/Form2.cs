@@ -25,7 +25,7 @@ namespace Kino
         private void Form2_Load(object sender, EventArgs e)
         {
             textBox2.Text = Ddata.GetCurrentDateTime();
-            textBox1.Text = cinema.Gdziekino();
+            textBox4.Text = cinema.Gdziekino();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -60,6 +60,11 @@ namespace Kino
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
