@@ -12,17 +12,19 @@ namespace Kino
 {
     public partial class Form2 : Form
     {
-        public wyswietldata data;
+        public WyswietlData Ddata;
+        public Cinema cinema;
 
         public Form2()
         {
             InitializeComponent();
-            data = new wyswietldata(); // Inicjalizacja instancji klasy ExtendedData
+            Ddata = new WyswietlData();
+            cinema = new Cinema("KinoProjekt", "Chorzów WSB");
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            textBox2.Text = dataInstance.GetCurrentDateTime();
+            textBox2.Text = Ddata.GetCurrentDateTime();
             textBox1.Text = cinema.Gdziekino();
         }
 
@@ -38,7 +40,7 @@ namespace Kino
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //logo kina
+            //logo naszego kina
         }
 
         private void button2_Click(object sender, EventArgs e)

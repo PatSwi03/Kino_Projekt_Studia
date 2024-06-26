@@ -2,12 +2,11 @@
 
 namespace Kino
 {
-    public class wyswietldata : Data
+    public class WyswietlData : Data
     {
-        
         public override string GetCurrentDateTime()
         {
-            return "" + base.GetCurrentDateTime();
+            return base.GetCurrentDateTime();
         }
     }
 }

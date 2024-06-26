@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Kino_Projekt_Studia",
+    "\\Kino_Projekt_Studia\\Kino"
   ],
-  "SelectedNode": "\\Kino.sln",
+  "SelectedNode": "\\Kino_Projekt_Studia\\Kino\\Form3.cs",
   "PreviewInSolutionExplorer": false
 }

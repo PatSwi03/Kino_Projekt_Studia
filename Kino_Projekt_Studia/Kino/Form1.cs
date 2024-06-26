@@ -8,7 +8,7 @@ namespace Kino
     public partial class Form1 : Form
     {
         private MySqlConnection conn = new MySqlConnection(@"SERVER=localhost; DATABASE=Kino; UID=root; PASSWORD=''");
-        public User user = new User("", ""); // Dodanie klasys user - możliwość logowania
+        public User user = new User("", "");
 
         public Form1()
         {

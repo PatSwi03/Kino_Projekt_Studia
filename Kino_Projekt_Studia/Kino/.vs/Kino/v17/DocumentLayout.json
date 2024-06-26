@@ -1,37 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\",
+  "WorkspaceRootPath": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\patswi03\\kino_projekt_studia\\kino_projekt_studia\\kino\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\datawyswietlana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:datawyswietlana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\datawyswietlana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:datawyswietlana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\patswi03\\kino_projekt_studia\\kino_projekt_studia\\kino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\patswi03\\kino_projekt_studia\\kino_projekt_studia\\kino\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\kino_projekt_studia\\kino_projekt_studia\\kino\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|c:\\users\\patryk\\source\\repos\\patswi03\\kino_projekt_studia\\kino_projekt_studia\\kino\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660EFB3B-0D08-4282-9B27-67445D7BA4BC}|Kino.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,76 +70,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form4.cs",
-              "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form4.cs",
-              "RelativeToolTip": "Form4.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAewCEAAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs [Projekt]",
+              "RelativeToolTip": "Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:01:30.628Z",
+              "WhenOpened": "2024-06-26T18:06:25.021Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\Source\\Repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Cinema.cs",
+              "RelativeDocumentMoniker": "Cinema.cs",
+              "ToolTip": "C:\\Users\\Patryk\\Source\\Repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Cinema.cs",
+              "RelativeToolTip": "Cinema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:01:33.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Data.cs",
-              "RelativeDocumentMoniker": "Data.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Data.cs",
-              "RelativeToolTip": "Data.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:54:40.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "datawyswietlana.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\datawyswietlana.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\datawyswietlana.cs",
               "RelativeDocumentMoniker": "datawyswietlana.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\datawyswietlana.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\datawyswietlana.cs",
               "RelativeToolTip": "datawyswietlana.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T11:54:38.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T11:54:00.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form3.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form3.cs",
               "RelativeToolTip": "Form3.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABsAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T11:53:46.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\User.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\User.cs",
               "RelativeToolTip": "User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,13 +147,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAABgAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA9wBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T11:52:24.996Z",
               "EditorCaption": ""
@@ -151,12 +162,50 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "ClassDiagram1.cd",
-              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\ClassDiagram1.cd",
               "RelativeToolTip": "ClassDiagram1.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
               "WhenOpened": "2024-06-23T11:52:12.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:54:40.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form2.cs [Projekt]",
+              "RelativeToolTip": "Form2.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:54:43.003Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\Patryk\\source\\repos\\PatSwi03\\Kino_Projekt_Studia\\Kino_Projekt_Studia\\Kino\\Form4.cs",
+              "RelativeToolTip": "Form4.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAewCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:01:30.628Z",
               "EditorCaption": ""
             }
           ]
