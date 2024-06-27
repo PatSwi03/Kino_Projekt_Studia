@@ -94,7 +94,7 @@ namespace Kino
                 sum += Convert.ToDouble(textBox3.Text) * 20.00;
                 sum += Convert.ToDouble(textBox4.Text) * 30.00;
                 sum += Convert.ToDouble(textBox5.Text) * 20.00;
-                sum += Convert.ToDouble(textBox6.Text) * 20.00;
+                sum += Convert.ToDouble(textBox6.Text) * 35.00;
                 sum += Convert.ToDouble(textBox7.Text) * 10.00;
                 sum += Convert.ToDouble(textBox8.Text) * 20.00;
                 sum += Convert.ToDouble(textBox9.Text) * 10.00;
