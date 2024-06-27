@@ -5,9 +5,12 @@ namespace Kino
 {
     public partial class Form5 : Form
     {
+        private RoznicaObliczeniaDetaliczna roznicaObliczeniaWaluta;
+
         public Form5()
         {
             InitializeComponent();
+            roznicaObliczeniaWaluta = new RoznicaObliczeniaDetaliczna();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -49,14 +52,13 @@ namespace Kino
 
         private void ObliczRoznice()
         {
-            // Wartości z podania kwoty do zapłaty i kwoty otrzymanej od klienta
             if (double.TryParse(textBox1.Text, out double value1) && double.TryParse(textBox2.Text, out double value2))
             {
-                // Oblicz różnicę
-                double roznica = value2 - value1;
+                roznicaObliczeniaWaluta.KwotaDoZaplaty = value1;
+                roznicaObliczeniaWaluta.KwotaOtrzymana = value2;
 
-                // Wyświetl kwote do zapłaty
-                textBox3.Text = roznica.ToString() + " zł";
+                // Wyświetl kwote do zapłaty z walutą
+                textBox3.Text = roznicaObliczeniaWaluta.ObliczRozniceZWaluta();
             }
             else
             {

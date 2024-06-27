@@ -40,5 +40,19 @@
       <FileName>datawyswietlana.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Kino.RoznicaObliczenia">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RoznicaObliczenia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kino.RoznicaObliczeniaDetaliczna">
+    <Position X="9.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>RoznicaObliczeniaDetaliczne(waluta).cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
