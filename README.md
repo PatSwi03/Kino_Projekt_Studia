@@ -64,10 +64,10 @@ Po poprawnym zalogowaniu uzyskujemy dostęp do reszty aplikacji.
 ![Panel Logowania](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/fd2a27d3-2d60-4acf-aef9-d9eeb272df3c)
 
 * Okno pośrednie - umożliwiający przejscie pomiędzy tworzeniem paragonów oraz logowaniem
-![Okno pośrednie](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/4b6b073e-3994-4963-9dd9-8894cfb96be2)
+![OknoPosrednie](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/5bde5e04-0202-4ea1-9438-a750b2a10913)
 
 * Okno tworzenia paragonów - okno zawiera liste dziś dostępnych filmów, listę dostępnych przekąsek oraz widok lącznej sumy rachunku
-![image](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/cbd87c61-795c-4cef-b043-d2fb5aab83c1)
+![Paragony](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/cbd87c61-795c-4cef-b043-d2fb5aab83c1)
 
 ## Struktura Bazy "Kino"
 Baza danych "Kino" - jest prostym źródłem danych dla aplikacji, baza składa się z 2 tabel users oraz filmy.
