@@ -85,6 +85,26 @@ Należy zmienić wartość string query = "SELECT Tytul, Rezyser, Ocena, Data, D
 na string query = "SELECT Tytul, Rezyser, Ocena, Data FROM `filmy` WHERE DATE(data) = CURDATE()"; dla efektu 
 ![Ograniczone wyświetlanie filmów](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/ca21edab-63f5-4852-bb93-7a42563ae051)
 
+## Diagram UML
+Poniżej przedstawiony jest diagram UML zawierający klasy istniejące w aplikacji są nimi: Cinema, Movie, User, Data w tym klase dziedziczącą WyswietlData, RoznicaObliczenia oraz klase dziedziczącą RoznicaObliczeniaDetaliczna
+![Diagram UML](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/f1919630-fcf7-42c4-a9a0-b44883264288)
+
+## Struktura Klas
+* Klasa Cinema                    
+  ![Cinema](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/a2f247a6-4e56-496a-b2f0-f33bb1310fbb)
+* Klasa Movie                      
+  ![Movie](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/da1410aa-aba5-4d38-b583-2787c3b18e0d)
+* Klasa User                            
+  ![User](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/4377a096-b2c8-4e80-b37e-8a1dd5051e44)
+* Klasa Data                                  
+![Data](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/6a9da6f2-2109-467e-abd9-59f412a22d72)
+* Klasa dziedzicząca od klasy Data - WyswietlData                          
+  ![WyswietlData](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/7c778b19-5817-49c1-ba3e-9893aeb555b2)
+* Klasa RoznicaObliczenia                                  
+  ![RoznicaObliczenia](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/d7ebeee7-da61-4839-9d48-0ef8de7e2998)
+* Klasa Dziedzicząca od klasy RoznicaObliczenia - RoznicaObliczeniaDetaliczna                      
+  ![RoznicaObliczeniaDetaliczna](https://github.com/PatSwi03/Kino_Projekt_Studia/assets/148622312/49416c12-905d-4fb7-acfd-356decb8bc6e)
+
 ## Wnioski z wykonanej pracy
 
 1. Podczas tworzenia panelu logowania zastosowaliśmy pierwsze łączenie z bazą danych z której uzyskujemy informacje o danych do zalogowania się do aplikacji, wykorzystaliśmy rówież przejscia pomiędzy częściami programu Form.
